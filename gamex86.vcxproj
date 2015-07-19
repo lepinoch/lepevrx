@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{FE668EA8-CC57-4D97-BC16-29620652E55B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>gamex86</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\l\Desktop\vrx\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gamex86.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gamex86</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\l\Desktop\vrx\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gamex86.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gamex86</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\l\Desktop\vrx\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gamex86.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gamex86</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\l\Desktop\vrx\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gamex86.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gamex86</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;GDS_NOMULTITHREADING;NO_GDS;CMD_USEHASH;Q2PRO_COMPATIBILITY;ALLOW_ADMIN;CMAKE_INTDIR="Debug";gamex86_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;GDS_NOMULTITHREADING;NO_GDS;CMD_USEHASH;Q2PRO_COMPATIBILITY;ALLOW_ADMIN;CMAKE_INTDIR=\"Debug\";gamex86_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Wininet.lib;Winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/l/Desktop/vrx/Debug/gamex86.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/l/Desktop/vrx/Debug/gamex86.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GDS_NOMULTITHREADING;NO_GDS;CMD_USEHASH;Q2PRO_COMPATIBILITY;ALLOW_ADMIN;CMAKE_INTDIR="Release";gamex86_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GDS_NOMULTITHREADING;NO_GDS;CMD_USEHASH;Q2PRO_COMPATIBILITY;ALLOW_ADMIN;CMAKE_INTDIR=\"Release\";gamex86_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Wininet.lib;Winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/l/Desktop/vrx/Release/gamex86.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/l/Desktop/vrx/Release/gamex86.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GDS_NOMULTITHREADING;NO_GDS;CMD_USEHASH;Q2PRO_COMPATIBILITY;ALLOW_ADMIN;CMAKE_INTDIR="MinSizeRel";gamex86_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GDS_NOMULTITHREADING;NO_GDS;CMD_USEHASH;Q2PRO_COMPATIBILITY;ALLOW_ADMIN;CMAKE_INTDIR=\"MinSizeRel\";gamex86_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Wininet.lib;Winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/l/Desktop/vrx/MinSizeRel/gamex86.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/l/Desktop/vrx/MinSizeRel/gamex86.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GDS_NOMULTITHREADING;NO_GDS;CMD_USEHASH;Q2PRO_COMPATIBILITY;ALLOW_ADMIN;CMAKE_INTDIR="RelWithDebInfo";gamex86_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GDS_NOMULTITHREADING;NO_GDS;CMD_USEHASH;Q2PRO_COMPATIBILITY;ALLOW_ADMIN;CMAKE_INTDIR=\"RelWithDebInfo\";gamex86_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Wininet.lib;Winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/l/Desktop/vrx/RelWithDebInfo/gamex86.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/l/Desktop/vrx/RelWithDebInfo/gamex86.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\vrxcl-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/vrxcl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\cmakeer\CMake\bin\cmake.exe -HE:/vrxcl-master -BC:/Users/l/Desktop/vrx --check-stamp-file C:\Users\l\Desktop\vrx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/vrxcl-master/CMakeLists.txt;E:\vrxcl-master\CMakeLists.txt;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystem.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerId.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCompilerIdDetection.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CompilerId\VS-10.vcxproj.in;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeFindBinUtils.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeClDeps.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerId.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCompilerIdDetection.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CompilerId\VS-10.vcxproj.in;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeFindBinUtils.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeClDeps.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeRCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCompilerCommon.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerABI.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCompilerCommon.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerABI.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Internal\FeatureTesting.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\l\Desktop\vrx\CMakeFiles\feature_tests.cxx;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDependentOption.cmake;E:\vrxcl-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\l\Desktop\vrx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/vrxcl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\cmakeer\CMake\bin\cmake.exe -HE:/vrxcl-master -BC:/Users/l/Desktop/vrx --check-stamp-file C:\Users\l\Desktop\vrx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/vrxcl-master/CMakeLists.txt;E:\vrxcl-master\CMakeLists.txt;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystem.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerId.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCompilerIdDetection.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CompilerId\VS-10.vcxproj.in;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeFindBinUtils.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeClDeps.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerId.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCompilerIdDetection.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CompilerId\VS-10.vcxproj.in;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeFindBinUtils.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeClDeps.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeRCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCompilerCommon.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerABI.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCompilerCommon.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerABI.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Internal\FeatureTesting.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\l\Desktop\vrx\CMakeFiles\feature_tests.cxx;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDependentOption.cmake;E:\vrxcl-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\l\Desktop\vrx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/vrxcl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\cmakeer\CMake\bin\cmake.exe -HE:/vrxcl-master -BC:/Users/l/Desktop/vrx --check-stamp-file C:\Users\l\Desktop\vrx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/vrxcl-master/CMakeLists.txt;E:\vrxcl-master\CMakeLists.txt;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystem.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerId.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCompilerIdDetection.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CompilerId\VS-10.vcxproj.in;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeFindBinUtils.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeClDeps.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerId.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCompilerIdDetection.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CompilerId\VS-10.vcxproj.in;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeFindBinUtils.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeClDeps.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeRCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCompilerCommon.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerABI.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCompilerCommon.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerABI.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Internal\FeatureTesting.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\l\Desktop\vrx\CMakeFiles\feature_tests.cxx;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDependentOption.cmake;E:\vrxcl-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\l\Desktop\vrx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/vrxcl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\cmakeer\CMake\bin\cmake.exe -HE:/vrxcl-master -BC:/Users/l/Desktop/vrx --check-stamp-file C:\Users\l\Desktop\vrx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/vrxcl-master/CMakeLists.txt;E:\vrxcl-master\CMakeLists.txt;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystem.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerId.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCompilerIdDetection.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CompilerId\VS-10.vcxproj.in;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeFindBinUtils.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeClDeps.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerId.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCompilerIdDetection.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\TI-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CompilerId\VS-10.vcxproj.in;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeFindBinUtils.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeClDeps.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeRCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeRCInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestRCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCompilerCommon.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerABI.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeTestCompilerCommon.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompilerABI.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeParseImplicitLinkInfo.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDetermineCompileFeatures.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Internal\FeatureTesting.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\l\Desktop\vrx\CMakeFiles\feature_tests.cxx;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeCXXCompiler.cmake.in;C:\Users\l\Desktop\vrx\CMakeFiles\3.3.0-rc2\CMakeCXXCompiler.cmake;E:\cmakeer\CMake\share\cmake-3.3\Modules\CMakeDependentOption.cmake;E:\vrxcl-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\l\Desktop\vrx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\vrxcl-master\ally.c"  />
+    <ClCompile Include="E:\vrxcl-master\armory.c"  />
+    <ClCompile Include="E:\vrxcl-master\auras.c"  />
+    <ClCompile Include="E:\vrxcl-master\backpack.c"  />
+    <ClCompile Include="E:\vrxcl-master\bombspell.c"  />
+    <ClCompile Include="E:\vrxcl-master\boss_general.c"  />
+    <ClCompile Include="E:\vrxcl-master\boss_makron.c"  />
+    <ClCompile Include="E:\vrxcl-master\boss_tank.c"  />
+    <ClCompile Include="E:\vrxcl-master\class_brain.c"  />
+    <ClCompile Include="E:\vrxcl-master\class_demon.c"  />
+    <ClCompile Include="E:\vrxcl-master\cloak.c"  />
+    <ClCompile Include="E:\vrxcl-master\ctf.c"  />
+    <ClCompile Include="E:\vrxcl-master\damage.c"  />
+    <ClCompile Include="E:\vrxcl-master\domination.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_ai.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_berserk.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_bitch.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_brain.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_decoy.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_gladiator.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_gunner.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_infantry.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_jorg.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_makron.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_medic.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_misc.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_move.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_mutant.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_parasite.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_retard.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_soldier.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_supertank.c"  />
+    <ClCompile Include="E:\vrxcl-master\drone_tank.c"  />
+    <ClCompile Include="E:\vrxcl-master\ents.c"  />
+    <ClCompile Include="E:\vrxcl-master\file_output.c"  />
+    <ClCompile Include="E:\vrxcl-master\flying_skull.c"  />
+    <ClCompile Include="E:\vrxcl-master\forcewall.c"  />
+    <ClCompile Include="E:\vrxcl-master\grid.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_chase.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_cmds.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_combat.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_flame.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_func.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_items.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_lasers.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_main.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_misc.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_monster.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_phys.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_save.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_spawn.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_svcmds.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_sword.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_target.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_trigger.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_utils.c"  />
+    <ClCompile Include="E:\vrxcl-master\g_weapon.c"  />
+    <ClCompile Include="E:\vrxcl-master\hash_32a.c"  />
+    <ClCompile Include="E:\vrxcl-master\help.c"  />
+    <ClCompile Include="E:\vrxcl-master\invasion.c"  />
+    <ClCompile Include="E:\vrxcl-master\item_menu.c"  />
+    <ClCompile Include="E:\vrxcl-master\jetpack.c"  />
+    <ClCompile Include="E:\vrxcl-master\lasers.c"  />
+    <ClCompile Include="E:\vrxcl-master\lasersight.c"  />
+    <ClCompile Include="E:\vrxcl-master\laserstuff.c"  />
+    <ClCompile Include="E:\vrxcl-master\lua.c"  />
+    <ClCompile Include="E:\vrxcl-master\magic.c"  />
+    <ClCompile Include="E:\vrxcl-master\maplist.c"  />
+    <ClCompile Include="E:\vrxcl-master\menu.c"  />
+    <ClCompile Include="E:\vrxcl-master\minisentry.c"  />
+    <ClCompile Include="E:\vrxcl-master\misc_stuff.c"  />
+    <ClCompile Include="E:\vrxcl-master\m_flash.c"  />
+    <ClCompile Include="E:\vrxcl-master\Player.c"  />
+    <ClCompile Include="E:\vrxcl-master\playerlog.c"  />
+    <ClCompile Include="E:\vrxcl-master\playertoberserk.c"  />
+    <ClCompile Include="E:\vrxcl-master\playertoflyer.c"  />
+    <ClCompile Include="E:\vrxcl-master\playertomedic.c"  />
+    <ClCompile Include="E:\vrxcl-master\playertomutant.c"  />
+    <ClCompile Include="E:\vrxcl-master\playertoparasite.c"  />
+    <ClCompile Include="E:\vrxcl-master\playertotank.c"  />
+    <ClCompile Include="E:\vrxcl-master\player_points.c"  />
+    <ClCompile Include="E:\vrxcl-master\pvb.c"  />
+    <ClCompile Include="E:\vrxcl-master\p_client.c"  />
+    <ClCompile Include="E:\vrxcl-master\p_hook.c"  />
+    <ClCompile Include="E:\vrxcl-master\p_hud.c"  />
+    <ClCompile Include="E:\vrxcl-master\p_menu.c"  />
+    <ClCompile Include="E:\vrxcl-master\p_parasite.c"  />
+    <ClCompile Include="E:\vrxcl-master\p_trail.c"  />
+    <ClCompile Include="E:\vrxcl-master\p_view.c"  />
+    <ClCompile Include="E:\vrxcl-master\p_weapon.c"  />
+    <ClCompile Include="E:\vrxcl-master\q_shared.c"  />
+    <ClCompile Include="E:\vrxcl-master\repairstation.c"  />
+    <ClCompile Include="E:\vrxcl-master\scanner.c"  />
+    <ClCompile Include="E:\vrxcl-master\sentrygun2.c"  />
+    <ClCompile Include="E:\vrxcl-master\shaman.c"  />
+    <ClCompile Include="E:\vrxcl-master\special_items.c"  />
+    <ClCompile Include="E:\vrxcl-master\Spirit.c"  />
+    <ClCompile Include="E:\vrxcl-master\sqlite3.c"  />
+    <ClCompile Include="E:\vrxcl-master\supplystation.c"  />
+    <ClCompile Include="E:\vrxcl-master\Talents.c"  />
+    <ClCompile Include="E:\vrxcl-master\teamplay.c"  />
+    <ClCompile Include="E:\vrxcl-master\totems.c"  />
+    <ClCompile Include="E:\vrxcl-master\trade.c"  />
+    <ClCompile Include="E:\vrxcl-master\upgrades.c"  />
+    <ClCompile Include="E:\vrxcl-master\vote.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_abilitylist.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_autobind.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_cmd.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_file_IO.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_hw.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_items.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_luasettings.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_maplist.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_mysql_gds.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_sqlite_character.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_sqlite_unidb.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_tbi.c"  />
+    <ClCompile Include="E:\vrxcl-master\v_utils.c"  />
+    <ClCompile Include="E:\vrxcl-master\weapons.c"  />
+    <ClCompile Include="E:\vrxcl-master\weapon_upgrades.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_class_dmbot.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_class_monster_default.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_dropnodes.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_items.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_links.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_main.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_movement.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_navigation.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_nodes.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_tools.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\ai_weapons.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\AStar.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\bot_common.c"  />
+    <ClCompile Include="E:\vrxcl-master\ai\bot_spawn.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/l/Desktop/vrx/ZERO_CHECK.vcxproj">
+      <Project>E112368F-44A9-4A74-8078-9B70F5C6F38B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
